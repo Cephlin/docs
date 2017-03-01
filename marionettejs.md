@@ -51,7 +51,8 @@ const Controller = Marionette.Object.extend({
       }
     });
 
-    this.options.layout = new SponsorLayout({
+    this.options.layout = new MyLayout({
+
       collection: collection,
       links: links
     });
